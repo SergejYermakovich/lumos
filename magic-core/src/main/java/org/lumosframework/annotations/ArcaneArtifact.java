@@ -4,6 +4,8 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface MagicalComponent {
+public @interface ArcaneArtifact {
+
     String value() default "";
+
 }

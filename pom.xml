@@ -22,4 +22,12 @@
         <module>dark-arts-defense</module>
         <module>spellbook-of-examples</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.10.2</version>
+        </dependency>
+    </dependencies>
 </project>

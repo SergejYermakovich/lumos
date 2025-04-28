@@ -1,8 +1,8 @@
 package org.lumosframework.core.example;
 
-import org.lumosframework.annotations.ArcaneArtifact;
+import org.lumosframework.annotations.Artifact;
 
-@ArcaneArtifact
+@Artifact
 public class Wand {
 
     private String name = "Elder Wand";

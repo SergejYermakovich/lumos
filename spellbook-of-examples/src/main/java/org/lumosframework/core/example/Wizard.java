@@ -1,15 +1,19 @@
 package org.lumosframework.core.example;
 
-import org.lumosframework.annotations.ArcaneArtifact;
-import org.lumosframework.annotations.Enchantment;
+import org.lumosframework.annotations.Artifact;
+import org.lumosframework.annotations.Charmed;
+import org.lumosframework.annotations.MagicValue;
 
-@ArcaneArtifact
+@Artifact
 public class Wizard {
 
-    @Enchantment
+    @Charmed
     private Wand wand;
 
+    @MagicValue(key = "wizzard.name")
+    private String name;
+
     public void castSpell() {
-        System.out.println("Casting spell with " + wand.getName());
+        System.out.println("Casting spell with " + wand.getName() + " by " + name);
     }
 }

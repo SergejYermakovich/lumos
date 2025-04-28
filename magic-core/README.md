@@ -2,13 +2,13 @@
 
 ### core module of Lumos framework for Java platform.
 
-## @ArcaneArtifact
+## @Artifact
 ``` 
 Component annotation.
  
 ```
 
-## @Enchantment
+## @Charmed
 ``` 
 Annotation for injecting dependencies into object.
 ```

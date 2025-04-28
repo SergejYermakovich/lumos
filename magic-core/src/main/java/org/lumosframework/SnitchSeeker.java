@@ -1,6 +1,6 @@
 package org.lumosframework;
 
-import org.lumosframework.annotations.ArcaneArtifact;
+import org.lumosframework.annotations.Artifact;
 import org.reflections.Reflections;
 
 import java.util.Set;
@@ -13,6 +13,6 @@ public class SnitchSeeker {
 
     public Set<Class<?>> seekForArtifacts(String basePackage) {
         Reflections reflections = new Reflections(basePackage);
-        return reflections.getTypesAnnotatedWith(ArcaneArtifact.class);
+        return reflections.getTypesAnnotatedWith(Artifact.class);
     }
 }
